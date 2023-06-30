@@ -1,0 +1,117 @@
+body {
+    background-image: url('./imgs/laptoptechimg.jpg');
+    background-size: cover;
+}
+
+.container {
+    border-radius: 17px;
+    background-color: rgba(22, 20, 20, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: deeppink;
+    margin-top: 50px;
+    width: 650px;
+}
+
+.heading1 {
+    text-align: center;
+    color: white !important;
+    font-family: Lobster;
+}
+
+.buton {
+    background-color: deeppink;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: beige;
+    border: none;
+}
+
+.buton1 {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: Lobster;
+}
+
+.buton:hover {
+    background-color: orange;
+}
+
+.input-line {
+    width: 300px;
+    /* border-radius: 15px; */
+    background-color: transparent;
+    border-color: wheat;
+    color: wheat;
+    border:transparent;
+    border-bottom: 2px solid deeppink; 
+    outline: none;
+}
+.al{
+    text-decoration: none;
+}
+.head5{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+.navbar-brand {
+    color: deeppink;
+    font-family: Signika Negative;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        margin-left: auto;
+        /* margin-top: 50px; */
+        width: 300px;
+        margin-bottom: 100px;
+
+    }
+
+    body {
+        background-image: url('./imgs/laptoptechimg.jpg');
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        max-width: 100%;
+        max-height: 100% !important;
+        /* min-height: 10vh; */
+    }
+
+    .input-line {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .container {
+        margin-top: 230px;
+    }
+    body{
+        background-repeat: no-repeat !important;
+        background-size: cover;
+        background-position: center;
+        min-height: 75vh !important;
+    }
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: deeppink;
+    font-family: Signika Negative;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.img1 {
+    height: 70px;
+    width: 100px;
+}
+
+.carousel-item img {
+    height: 90vh;
+}
+
+.afnav {
+    display: flex;
+    margin-top: 100px;
+    text-decoration: none;
+    font-family: Signika Negative;
+    color: darkorange;
+    text-align: center;
+}
+
+.afnav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#greeting {
+    color: deeppink !important;
+    text-align: end !important;
+}
+
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .carousel-item img {
+        height: 45vh;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+}

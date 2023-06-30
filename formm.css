@@ -1,0 +1,112 @@
+body {
+    /* background-color: rgb(31, 32, 32); */
+    background-image: url('./imgs/laptoptechimg.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* backdrop-filter: blur(5px); */
+    /* -webkit-backdrop-filter: blur(5px) */
+}
+
+
+
+.container {
+    border-radius: 15px;
+    background-color: rgba(22, 20, 20, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: deeppink;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 700px;
+}
+
+.heading1 {
+    text-align: center;
+    color: white !important;
+    font-family: Lobster;
+}
+
+.buton {
+    background-color: deeppink;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: beige;
+    border: none;
+    font-family: Lobster;
+}
+
+.buton1{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.buton:hover {
+    background-color: orange;
+}
+
+.input-line{
+    width: 300px;
+    /* border-radius: 15px; */
+    background-color: transparent;
+    border-color: wheat;
+    color: wheat;
+    border:transparent;
+    border-bottom: 2px solid deeppink; 
+    outline: none;
+}
+.al{
+    text-decoration: none;
+}
+.navbar-brand {
+    color: deeppink;
+    font-family: Signika Negative;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.head5{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        height: 900px;
+        font-size: 25px;
+        width: 300px;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        background-color: rgba(117, 114, 114, 0.4);
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    body {
+        background-image: url('./imgs/laptoptechimg.jpg');
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        max-height: 100% !important;
+    }
+    .input-line {
+        width: 250px;
+    }
+}
